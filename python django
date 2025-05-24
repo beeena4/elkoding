@@ -1,0 +1,23 @@
+# Membuat project baru
+django-admin startproject nama_project
+
+# Membuat aplikasi baru
+python manage.py startapp nama_app
+
+# Membuat migrasi
+python manage.py makemigrations
+
+# Menjalankan migrasi
+python manage.py migrate
+
+# Menjalankan server development
+python manage.py runserver
+
+# Membuat superuser
+python manage.py createsuperuser
+
+# Mengumpulkan static files (untuk production)
+python manage.py collectstatic
+
+# Shell Django untuk testing
+python manage.py shell
